@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Geobrain project Lausann
+title: Geobrain project Lausanne
 subtitle: Providing an atlas of the brain in Lausanne
 cover-img: "/assets/img/swiss-map-raster25_2020_1243_komb_1.25_2056.tif"
 ---
