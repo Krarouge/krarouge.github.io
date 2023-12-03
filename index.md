@@ -39,7 +39,7 @@ cover-img: "/assets/img/temp.webp"
 <select id="variableSelect">
     <option value="CG400_X_F2_F2_TIV_adj">400m</option>
     <option value="CG500_X_F2_F2_TIV_adj">500m</option>
-    <option value="CG600_X_F2_F2_TIV_adj600m"></option>
+    <option value="CG600_X_F2_F2_TIV_adj">600m</option>
     <option value="CG800_X_F2_F2_TIV_adj">800m</option>
 </select>
 
