@@ -55,7 +55,7 @@ cover-img: "/assets/img/temp.webp"
         var iframe = document.createElement('iframe');
         iframe.src = "maps/map_points_" + selectedVariable + ".html";
         iframe.width = "100%";
-        iframe.height = "500px";
+        iframe.height = "300px";
         
         // Replace the content of mapContainer with the updated map
         var mapContainer = document.getElementById("mapContainer");
