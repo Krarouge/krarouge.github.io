@@ -30,7 +30,6 @@ Here's a table:
 {: .box-note}
 **Note:** Deadline projet en janvier.
 
-### Warning
 
 {: .box-warning}
 **Warning:** Deadline texte 1 semaine après la fin des cours.
