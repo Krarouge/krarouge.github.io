@@ -31,3 +31,39 @@ cover-img: "/assets/img/temp.webp"
 
 ### Point map
 <iframe src="maps/map_points.html" width="100%" height="500px"></iframe>
+
+
+## Interactive TIV point map test
+
+**Spatial lag selection**
+<select id="variableSelect">
+    <option value="400m">CG400_X_F2_F2_TIV_adj</option>
+    <option value="500m">CG500_X_F2_F2_TIV_adj</option>
+    <option value="600m">CG600_X_F2_F2_TIV_adj</option>
+    <option value="800m">CG800_X_F2_F2_TIV_adj</option>
+</select>
+
+<!-- Container to display the map -->
+<div id="mapContainer"></div>
+
+<!-- Script to handle map display based on user selection -->
+<script>
+    function displayMap() {
+        var selectedVariable = document.getElementById("variableSelect").value;
+        
+        // Code to display the map based on the selectedVariable
+        var iframe = document.createElement('iframe');
+        iframe.src = "maps/map_points_" + selectedVariable + ".html";
+        iframe.width = "100%";
+        iframe.height = "500px";
+        
+        // Replace the content of mapContainer with the updated map
+        var mapContainer = document.getElementById("mapContainer");
+        mapContainer.innerHTML = '';
+        mapContainer.appendChild(iframe);
+    }
+
+    document.getElementById("variableSelect").addEventListener("change", displayMap);
+
+    displayMap();
+</script>
