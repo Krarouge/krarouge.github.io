@@ -37,10 +37,10 @@ cover-img: "/assets/img/temp.webp"
 
 **Spatial lag selection**
 <select id="variableSelect">
-    <option value="400m">CG400_X_F2_F2_TIV_adj</option>
-    <option value="500m">CG500_X_F2_F2_TIV_adj</option>
-    <option value="600m">CG600_X_F2_F2_TIV_adj</option>
-    <option value="800m">CG800_X_F2_F2_TIV_adj</option>
+    <option value="CG400_X_F2_F2_TIV_adj">400m</option>
+    <option value="CG500_X_F2_F2_TIV_adj">500m</option>
+    <option value="CG600_X_F2_F2_TIV_adj600m"></option>
+    <option value="CG800_X_F2_F2_TIV_adj">800m</option>
 </select>
 
 <!-- Container to display the map -->
