@@ -54,8 +54,8 @@ cover-img: "/assets/img/temp.webp"
         // Code to display the map based on the selectedVariable
         var iframe = document.createElement('iframe');
         iframe.src = "maps/map_points_" + selectedVariable + ".html";
-        iframe.width = "100%";
-        iframe.height = "300px";
+        iframe.width = "90%";
+        iframe.height = "400px";
         
         // Replace the content of mapContainer with the updated map
         var mapContainer = document.getElementById("mapContainer");
