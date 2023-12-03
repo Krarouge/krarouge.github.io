@@ -22,3 +22,12 @@ cover-img: "/assets/img/temp.webp"
 ## Dataset description
 
 &nbsp;&nbsp;&nbsp;&nbsp; Lorem
+
+
+## Maps visualization 
+
+### Density map
+<iframe src="maps/map_dense.html" width="100%" height="500px"></iframe>
+
+### Point map
+<iframe src="maps/map_points.html" width="100%" height="500px"></iframe>
