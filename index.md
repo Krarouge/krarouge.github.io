@@ -37,7 +37,7 @@ cover-img: "/assets/img/temp.webp"
 ### Interactive TIV point map test
 
 **Spatial lag selection**
-<select id="variableSelect">
+<select id="variableSelectTIV">
     <option value="CG400_X_F2_F2_TIV_adj">400m</option>
     <option value="CG500_X_F2_F2_TIV_adj">500m</option>
     <option value="CG600_X_F2_F2_TIV_adj">600m</option>
@@ -50,11 +50,11 @@ cover-img: "/assets/img/temp.webp"
 <!-- Script to handle map display based on user selection -->
 <script>
     function displayMap() {
-        var selectedVariable = document.getElementById("variableSelect").value;
+        var selectedVariableTIV = document.getElementById("variableSelectTIV").value;
         
         // Code to display the map based on the selectedVariable
         var iframe = document.createElement('iframe');
-        iframe.src = "maps/map_points_" + selectedVariable + ".html";
+        iframe.src = "maps/map_points_" + selectedVariableTIV + ".html";
         iframe.width = "90%";
         iframe.height = "400px";
         
@@ -64,7 +64,7 @@ cover-img: "/assets/img/temp.webp"
         mapContainer.appendChild(iframe);
     }
 
-    document.getElementById("variableSelect").addEventListener("change", displayMap);
+    document.getElementById("variableSelectTIV").addEventListener("change", displayMap);
 
     displayMap();
 </script>
@@ -74,7 +74,7 @@ cover-img: "/assets/img/temp.webp"
 ### Density map Right Accumbens
 
 **Spatial lag selection**
-<select id="variableSelect">
+<select id="variableSelectGRA">
     <option value="CG400_X_F2_F2_RightAccumbensArea_adj">400m</option>
     <option value="CG500_X_F2_F2_RightAccumbensArea_adj">500m</option>
     <option value="CG600_X_F2_F2_RightAccumbensArea_adj">600m</option>
@@ -87,11 +87,11 @@ cover-img: "/assets/img/temp.webp"
 <!-- Script to handle map display based on user selection -->
 <script>
     function displayMap() {
-        var selectedVariable = document.getElementById("variableSelect").value;
+        var selectedVariableGRA = document.getElementById("variableSelectGRA").value;
         
         // Code to display the map based on the selectedVariable
         var iframe = document.createElement('iframe');
-        iframe.src = "maps/map_density_" + selectedVariable + ".html";
+        iframe.src = "maps/map_density_" + selectedVariableGRA + ".html";
         iframe.width = "90%";
         iframe.height = "400px";
         
@@ -101,7 +101,7 @@ cover-img: "/assets/img/temp.webp"
         mapContainer.appendChild(iframe);
     }
 
-    document.getElementById("variableSelect").addEventListener("change", displayMap);
+    document.getElementById("variableSelectGRA").addEventListener("change", displayMap);
 
     displayMap();
 </script>
@@ -109,7 +109,7 @@ cover-img: "/assets/img/temp.webp"
 ### Density map Left Accumbens
 
 **Spatial lag selection**
-<select id="variableSelect">
+<select id="variableSelectGLA">
     <option value="CG400_X_F2_F2_LeftAccumbensArea_adj">400m</option>
     <option value="CG500_X_F2_F2_LeftAccumbensArea_adj">500m</option>
     <option value="CG600_X_F2_F2_LeftAccumbensArea_adj">600m</option>
@@ -122,11 +122,11 @@ cover-img: "/assets/img/temp.webp"
 <!-- Script to handle map display based on user selection -->
 <script>
     function displayMap() {
-        var selectedVariable = document.getElementById("variableSelect").value;
+        var selectedVariableGLA = document.getElementById("variableSelectGLA").value;
         
         // Code to display the map based on the selectedVariable
         var iframe = document.createElement('iframe');
-        iframe.src = "maps/map_density_" + selectedVariable + ".html";
+        iframe.src = "maps/map_density_" + selectedVariableGLA + ".html";
         iframe.width = "90%";
         iframe.height = "400px";
         
@@ -136,7 +136,7 @@ cover-img: "/assets/img/temp.webp"
         mapContainer.appendChild(iframe);
     }
 
-    document.getElementById("variableSelect").addEventListener("change", displayMap);
+    document.getElementById("variableSelectGLA").addEventListener("change", displayMap);
 
     displayMap();
 </script>
