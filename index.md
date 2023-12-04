@@ -37,7 +37,7 @@ cover-img: "/assets/img/temp.webp"
 ### Interactive TIV point map test
 
 **Spatial lag selection**
-<select id="variableSelectTIV">
+<select id="variableSelect">
     <option value="CG400_X_F2_F2_TIV_adj">400m</option>
     <option value="CG500_X_F2_F2_TIV_adj">500m</option>
     <option value="CG600_X_F2_F2_TIV_adj">600m</option>
@@ -45,28 +45,28 @@ cover-img: "/assets/img/temp.webp"
 </select>
 
 <!-- Container to display the map -->
-<div id="mapContainerTIV"></div>
+<div id="mapContainer"></div>
 
 <!-- Script to handle map display based on user selection -->
 <script>
-    function displayMapTIV() {
-        var selectedVariableTIV = document.getElementById("variableSelectTIV").value;
+    function displayMap() {
+        var selectedVariable = document.getElementById("variableSelect").value;
         
         // Code to display the map based on the selectedVariable
-        var iframeTIV = document.createElement('iframe');
-        iframeTIV.src = "maps/map_points_" + selectedVariableTIV + ".html";
-        iframeTIV.width = "90%";
-        iframeTIV.height = "400px";
+        var iframe = document.createElement('iframe');
+        iframe.src = "maps/map_points_" + selectedVariable + ".html";
+        iframe.width = "90%";
+        iframe.height = "400px";
         
         // Replace the content of mapContainer with the updated map
-        var mapContainerTIV = document.getElementById("mapContainerTIV");
-        mapContainerTIV.innerHTML = '';
-        mapContainerTIV.appendChild(iframe);
+        var mapContainer = document.getElementById("mapContainer");
+        mapContainer.innerHTML = '';
+        mapContainer.appendChild(iframe);
     }
 
-    document.getElementById("variableSelectTIV").addEventListener("change", displayMap);
+    document.getElementById("variableSelect").addEventListener("change", displayMap);
 
-    displayMapTIV();
+    displayMap();
 </script>
 
 
