@@ -9,10 +9,10 @@ subtitle: Interactive map
 
 **Spatial lag selection**
 <select id="variableSelect">
-    <option value="CG400_X_F2_F2_LeftSCASubcallosalArea_adj">400m</option>
-    <option value="CG500_X_F2_F2_LeftSCASubcallosalArea_adj">500m</option>
-    <option value="CG600_X_F2_F2_LeftSCASubcallosalArea_adj">600m</option>
-    <option value="CG800_X_F2_F2_LeftSCASubcallosalArea_adj">800m</option>
+    <option value="CL400_X_F2_F2_LeftSCASubcallosalArea_adj">400m</option>
+    <option value="CL500_X_F2_F2_LeftSCASubcallosalArea_adj">500m</option>
+    <option value="CL600_X_F2_F2_LeftSCASubcallosalArea_adj">600m</option>
+    <option value="CL800_X_F2_F2_LeftSCASubcallosalArea_adj">800m</option>
 </select>
 
 <!-- Container to display the map -->
