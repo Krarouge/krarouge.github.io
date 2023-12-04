@@ -215,3 +215,145 @@ cover-img: "/assets/img/temp.webp"
 
 
 ## Maps visualization: LISA
+
+### Density map Right Accumbens
+
+**Spatial lag selection**
+<select id="variableSelect">
+    <option value="CG400_X_F2_F2_RightAccumbensArea_adj">400m</option>
+    <option value="CG500_X_F2_F2_RightAccumbensArea_adj">500m</option>
+    <option value="CG600_X_F2_F2_RightAccumbensArea_adj">600m</option>
+    <option value="CG800_X_F2_F2_RightAccumbensArea_adj">800m</option>
+</select>
+
+<!-- Container to display the map -->
+<div id="mapContainer"></div>
+
+<!-- Script to handle map display based on user selection -->
+<script>
+    function displayMap() {
+        var selectedVariable = document.getElementById("variableSelect").value;
+        
+        // Code to display the map based on the selectedVariable
+        var iframe = document.createElement('iframe');
+        iframe.src = "maps/LISA_map_density_" + selectedVariable + ".html";
+        iframe.width = "90%";
+        iframe.height = "400px";
+        
+        // Replace the content of mapContainer with the updated map
+        var mapContainer = document.getElementById("mapContainer");
+        mapContainer.innerHTML = '';
+        mapContainer.appendChild(iframe);
+    }
+
+    document.getElementById("variableSelect").addEventListener("change", displayMap);
+
+    displayMap();
+</script>
+
+### Density map Left Accumbens
+
+**Spatial lag selection**
+<select id="variableSelect">
+    <option value="CG400_X_F2_F2_LeftAccumbensArea_adj">400m</option>
+    <option value="CG500_X_F2_F2_LeftAccumbensArea_adj">500m</option>
+    <option value="CG600_X_F2_F2_LeftAccumbensArea_adj">600m</option>
+    <option value="CG800_X_F2_F2_LeftAccumbensArea_adj">800m</option>
+</select>
+
+<!-- Container to display the map -->
+<div id="mapContainer"></div>
+
+<!-- Script to handle map display based on user selection -->
+<script>
+    function displayMap() {
+        var selectedVariable = document.getElementById("variableSelect").value;
+        
+        // Code to display the map based on the selectedVariable
+        var iframe = document.createElement('iframe');
+        iframe.src = "maps/LISA_map_density_" + selectedVariable + ".html";
+        iframe.width = "90%";
+        iframe.height = "400px";
+        
+        // Replace the content of mapContainer with the updated map
+        var mapContainer = document.getElementById("mapContainer");
+        mapContainer.innerHTML = '';
+        mapContainer.appendChild(iframe);
+    }
+
+    document.getElementById("variableSelect").addEventListener("change", displayMap);
+
+    displayMap();
+</script>
+
+
+### Density map Right Subcallosal area
+
+**Spatial lag selection**
+<select id="variableSelect">
+    <option value="CG400_X_F2_F2_RightSCASubcallosalArea_adj">400m</option>
+    <option value="CG500_X_F2_F2_RightSCASubcallosalArea_adj">500m</option>
+    <option value="CG600_X_F2_F2_RightSCASubcallosalArea_adj">600m</option>
+    <option value="CG800_X_F2_F2_RightSCASubcallosalArea_adj">800m</option>
+</select>
+
+<!-- Container to display the map -->
+<div id="mapContainer"></div>
+
+<!-- Script to handle map display based on user selection -->
+<script>
+    function displayMap() {
+        var selectedVariable = document.getElementById("variableSelect").value;
+        
+        // Code to display the map based on the selectedVariable
+        var iframe = document.createElement('iframe');
+        iframe.src = "maps/LISA_map_density_" + selectedVariable + ".html";
+        iframe.width = "90%";
+        iframe.height = "400px";
+        
+        // Replace the content of mapContainer with the updated map
+        var mapContainer = document.getElementById("mapContainer");
+        mapContainer.innerHTML = '';
+        mapContainer.appendChild(iframe);
+    }
+
+    document.getElementById("variableSelect").addEventListener("change", displayMap);
+
+    displayMap();
+</script>
+
+
+### Density map Left Subcallosal area
+
+**Spatial lag selection**
+<select id="variableSelect">
+    <option value="CG400_X_F2_F2_LeftSCASubcallosalArea_adj">400m</option>
+    <option value="CG500_X_F2_F2_LeftSCASubcallosalArea_adj">500m</option>
+    <option value="CG600_X_F2_F2_LeftSCASubcallosalArea_adj">600m</option>
+    <option value="CG800_X_F2_F2_LeftSCASubcallosalArea_adj">800m</option>
+</select>
+
+<!-- Container to display the map -->
+<div id="mapContainer"></div>
+
+<!-- Script to handle map display based on user selection -->
+<script>
+    function displayMap() {
+        var selectedVariable = document.getElementById("variableSelect").value;
+        
+        // Code to display the map based on the selectedVariable
+        var iframe = document.createElement('iframe');
+        iframe.src = "maps/LISA_map_density_" + selectedVariable + ".html";
+        iframe.width = "90%";
+        iframe.height = "400px";
+        
+        // Replace the content of mapContainer with the updated map
+        var mapContainer = document.getElementById("mapContainer");
+        mapContainer.innerHTML = '';
+        mapContainer.appendChild(iframe);
+    }
+
+    document.getElementById("variableSelect").addEventListener("change", displayMap);
+
+    displayMap();
+</script>
