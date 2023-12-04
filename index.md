@@ -49,7 +49,7 @@ cover-img: "/assets/img/temp.webp"
 
 <!-- Script to handle map display based on user selection -->
 <script>
-    function displayMap() {
+    function displayMapTIV() {
         var selectedVariableTIV = document.getElementById("variableSelectTIV").value;
         
         // Code to display the map based on the selectedVariable
@@ -66,7 +66,7 @@ cover-img: "/assets/img/temp.webp"
 
     document.getElementById("variableSelectTIV").addEventListener("change", displayMap);
 
-    displayMap();
+    displayMapTIV();
 </script>
 
 
@@ -82,28 +82,28 @@ cover-img: "/assets/img/temp.webp"
 </select>
 
 <!-- Container to display the map -->
-<div id="mapContainer"></div>
+<div id="mapContainerGRA"></div>
 
 <!-- Script to handle map display based on user selection -->
 <script>
-    function displayMap() {
+    function displayMapGRA() {
         var selectedVariableGRA = document.getElementById("variableSelectGRA").value;
         
         // Code to display the map based on the selectedVariable
-        var iframe = document.createElement('iframe');
-        iframe.src = "maps/map_density_" + selectedVariableGRA + ".html";
-        iframe.width = "90%";
-        iframe.height = "400px";
+        var iframeGRA = document.createElement('iframe');
+        iframeGRA.src = "maps/map_density_" + selectedVariableGRA + ".html";
+        iframeGRA.width = "90%";
+        iframeGRA.height = "400px";
         
         // Replace the content of mapContainer with the updated map
-        var mapContainer = document.getElementById("mapContainer");
-        mapContainer.innerHTML = '';
-        mapContainer.appendChild(iframe);
+        var mapContainerGRA = document.getElementById("mapContainerGRA");
+        mapContainerGRA.innerHTML = '';
+        mapContainerGRA.appendChild(iframe);
     }
 
-    document.getElementById("variableSelectGRA").addEventListener("change", displayMap);
+    document.getElementById("variableSelectGRA").addEventListener("change", displayMapGRA);
 
-    displayMap();
+    displayMapGRA();
 </script>
 
 ### Density map Left Accumbens
