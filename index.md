@@ -45,7 +45,7 @@ cover-img: "/assets/img/temp.webp"
 </select>
 
 <!-- Container to display the map -->
-<div id="mapContainer"></div>
+<div id="mapContainerTIV"></div>
 
 <!-- Script to handle map display based on user selection -->
 <script>
@@ -53,15 +53,15 @@ cover-img: "/assets/img/temp.webp"
         var selectedVariableTIV = document.getElementById("variableSelectTIV").value;
         
         // Code to display the map based on the selectedVariable
-        var iframe = document.createElement('iframe');
-        iframe.src = "maps/map_points_" + selectedVariableTIV + ".html";
-        iframe.width = "90%";
-        iframe.height = "400px";
+        var iframeTIV = document.createElement('iframe');
+        iframeTIV.src = "maps/map_points_" + selectedVariableTIV + ".html";
+        iframeTIV.width = "90%";
+        iframeTIV.height = "400px";
         
         // Replace the content of mapContainer with the updated map
-        var mapContainer = document.getElementById("mapContainer");
-        mapContainer.innerHTML = '';
-        mapContainer.appendChild(iframe);
+        var mapContainerTIV = document.getElementById("mapContainerTIV");
+        mapContainerTIV.innerHTML = '';
+        mapContainerTIV.appendChild(iframe);
     }
 
     document.getElementById("variableSelectTIV").addEventListener("change", displayMap);
