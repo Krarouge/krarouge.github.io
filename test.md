@@ -1,0 +1,41 @@
+---
+layout: page
+title: Test
+subtitle: Interactive map
+---
+
+
+### Density map Left Subcallosal area
+
+**Spatial lag selection**
+<select id="variableSelect">
+    <option value="CG400_X_F2_F2_LeftSCASubcallosalArea_adj">400m</option>
+    <option value="CG500_X_F2_F2_LeftSCASubcallosalArea_adj">500m</option>
+    <option value="CG600_X_F2_F2_LeftSCASubcallosalArea_adj">600m</option>
+    <option value="CG800_X_F2_F2_LeftSCASubcallosalArea_adj">800m</option>
+</select>
+
+<!-- Container to display the map -->
+<div id="mapContainer"></div>
+
+<!-- Script to handle map display based on user selection -->
+<script>
+    function displayMap() {
+        var selectedVariable = document.getElementById("variableSelect").value;
+        
+        // Code to display the map based on the selectedVariable
+        var iframe = document.createElement('iframe');
+        iframe.src = "maps/LISA_map_density_" + selectedVariable + ".html";
+        iframe.width = "90%";
+        iframe.height = "400px";
+        
+        // Replace the content of mapContainer with the updated map
+        var mapContainer = document.getElementById("mapContainer");
+        mapContainer.innerHTML = '';
+        mapContainer.appendChild(iframe);
+    }
+
+    document.getElementById("variableSelect").addEventListener("change", displayMap);
+
+    displayMap();
+</script>
