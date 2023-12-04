@@ -70,7 +70,7 @@ cover-img: "/assets/img/temp.webp"
 </script>
 
 
-
+<!
 ### Density map Right Accumbens
 
 **Spatial lag selection**
@@ -357,3 +357,4 @@ cover-img: "/assets/img/temp.webp"
 
     displayMap();
 </script>
+>
