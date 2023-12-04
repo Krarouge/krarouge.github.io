@@ -3,7 +3,7 @@ layout: page
 title: Test
 subtitle: Interactive map
 ---
- ok
+ 
 
 ### Density map Left Subcallosal area
 
