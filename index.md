@@ -9,11 +9,11 @@ cover-img: "/assets/img/temp.webp"
 
 &nbsp;&nbsp;&nbsp;&nbsp; Our brain is our most specialized organ and it is responsible for the complex sensory perception of our environment. But those 14-16 billion neurons are in fact quite fragile and prone to multiple diseases and cortical thinning. Pesticides, air pollutants, metal accumultaion or excessive noise were all shown to have a negative impact during the brain development or during adulthood. 
 
-&nbsp;&nbsp;&nbsp;&nbsp; In this context, it is important to explore the relationships between the brain structure and its environment. This can be achieved by analyzing spatial trends in brain regions volume variations over maps. With the help of those tools, a better visual grasp and comprehension of the spatiality allows for a further investigation of the potential link to environmental variable.
+&nbsp;&nbsp;&nbsp;&nbsp; In this context, it is important to explore the relationships between the brain structure and its environment. This can be achieved by analyzing spatial trends in brain regions volume variations over maps. With the help of those tools, a better visual grasp and comprehension of the spatiality allows for a further investigation of a potential link to an environmental variable.
 
 ## Goal
 
-&nbsp;&nbsp;&nbsp;&nbsp; This project aims to build an atlas of brain structure 
+&nbsp;&nbsp;&nbsp;&nbsp; This project aims to build an atlas of the brain structure in Lausanne, helping in the vizualization of otherwise opaque data. Its second goal is to demonstrate a type of analysis making use of this data with the case of heavy metals and their ties with neurodegenaration.
 
 ## Literature review
 
