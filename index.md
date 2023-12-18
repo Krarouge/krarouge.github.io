@@ -7,17 +7,17 @@ cover-img: "/assets/img/temp.webp"
 
 ## Motivation
 
-&nbsp;&nbsp;&nbsp;&nbsp; Our brain is our most specialized organ and it is responsible for the complex sensory perception of our environment. But those 14-16 billion neurons ae
+&nbsp;&nbsp;&nbsp;&nbsp; Our brain is our most specialized organ and it is responsible for the complex sensory perception of our environment. But those 14-16 billion neurons are in fact quite fragile and prone to multiple diseases and cortical thinning. Pesticides, air pollutants, metal accumultaion or excessive noise were all shown to have a negative impact during the brain development or during adulthood. 
 
-&nbsp;&nbsp;&nbsp;&nbsp; Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+&nbsp;&nbsp;&nbsp;&nbsp; In this context, it is important to explore the relationships between the brain structure and its environment. This can be achieved by analyzing spatial trends in brain regions volume variations over maps. With the help of those tools, a better visual grasp and comprehension of the spatiality allows for a further investigation of the potential link to environmental variable.
 
 ## Goal
 
-&nbsp;&nbsp;&nbsp;&nbsp; This project aims to ...
+&nbsp;&nbsp;&nbsp;&nbsp; This project aims to build an atlas of brain structure 
 
-## Litterature review
+## Literature review
 
-- What are the goals ?
+Review on ties between spatial and environmental factors in the litterature
 
 ## Dataset description
 
