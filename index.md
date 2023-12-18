@@ -17,7 +17,7 @@ cover-img: "/assets/img/temp.webp"
 
 ## Literature review
 
-Review on ties between spatial and environmental factors in the litterature
+Review on ties between brain and environmental factors in the litterature
 
 ## Dataset description
 
