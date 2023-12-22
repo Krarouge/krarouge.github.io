@@ -107,21 +107,29 @@ Review on ties between brain and environmental factors in the litterature
 </script>
 
 
+<style>
+.myDiv {
+    width: 320px;
+  height: 50px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+}
+</style>
 
-
-<iframe>
-<div class="timeline">
-  <div class="container left">
-    <div class="content">
-      <h2>2017</h2>
-      <p>Lorem ipsum..</p>
+<div class="myDiv">
+    <div class="timeline">
+      <div class="container left">
+        <div class="content">
+          <h2>2017</h2>
+          <p>Lorem ipsum..</p>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <h2>2016</h2>
+          <p>Lorem ipsum..</p>
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="container right">
-    <div class="content">
-      <h2>2016</h2>
-      <p>Lorem ipsum..</p>
-    </div>
-  </div>
-</div>
-</iframe>
+<\div>
