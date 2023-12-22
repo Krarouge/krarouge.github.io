@@ -110,27 +110,17 @@ Review on ties between brain and environmental factors in the litterature
 
 
 
-
-<div class="container">
-  <div class="swiper-container-wrapper swiper-container-wrapper--timeline">
-    <!-- Timeline -->
-    <ul class="swiper-pagination-custom">
-      <li class='swiper-pagination-switch first active'><span class='switch-title'>1911</span></li>
-      <li class='swiper-pagination-switch'><span class='switch-title'>1970</span></li>
-      <li class='swiper-pagination-switch'><span class='switch-title'>2021</span></li>
-      <li class='swiper-pagination-switch last'><span class='switch-title'>3000</span></li>
-    </ul>
-    <!-- Progressbar -->
-    <div class="swiper-pagination swiper-pagination-progressbar swiper-pagination-horizontal"></div>
-    <!-- Swiper -->
-    <div class="swiper swiper-container swiper-container--timeline">
-      <div class="swiper-wrapper">
-        <!-- Slides -->
-        <div class="swiper-slide"><span class="title">Swiper Timeline Progressbar</span></div>
-        <div class="swiper-slide"><span class="title">Title 2</span></div>
-        <div class="swiper-slide"><span class="title">Title 3</span></div>
-        <div class="swiper-slide"><span class="title">Title 4</span></div>
-      </div>
+<div class="timeline">
+  <div class="container left">
+    <div class="content">
+      <h2>2017</h2>
+      <p>Lorem ipsum..</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>2016</h2>
+      <p>Lorem ipsum..</p>
     </div>
   </div>
 </div>
