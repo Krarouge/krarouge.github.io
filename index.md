@@ -109,36 +109,27 @@ Review on ties between brain and environmental factors in the litterature
 
 
 
-<div class="timeline">
-  <div class="outer">
-    <div class="card">
-      <div class="info">
-        <h3 class="title">Title 1</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="info">
-        <h3 class="title">Title 2</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="info">
-        <h3 class="title">Title 3</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="info">
-        <h3 class="title">Title 4</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="info">
-        <h3 class="title">Title 5</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+
+
+<div class="container">
+  <div class="swiper-container-wrapper swiper-container-wrapper--timeline">
+    <!-- Timeline -->
+    <ul class="swiper-pagination-custom">
+      <li class='swiper-pagination-switch first active'><span class='switch-title'>1911</span></li>
+      <li class='swiper-pagination-switch'><span class='switch-title'>1970</span></li>
+      <li class='swiper-pagination-switch'><span class='switch-title'>2021</span></li>
+      <li class='swiper-pagination-switch last'><span class='switch-title'>3000</span></li>
+    </ul>
+    <!-- Progressbar -->
+    <div class="swiper-pagination swiper-pagination-progressbar swiper-pagination-horizontal"></div>
+    <!-- Swiper -->
+    <div class="swiper swiper-container swiper-container--timeline">
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><span class="title">Swiper Timeline Progressbar</span></div>
+        <div class="swiper-slide"><span class="title">Title 2</span></div>
+        <div class="swiper-slide"><span class="title">Title 3</span></div>
+        <div class="swiper-slide"><span class="title">Title 4</span></div>
       </div>
     </div>
   </div>
