@@ -109,8 +109,8 @@ Review on ties between brain and environmental factors in the litterature
 
 <style>
 .myDiv {
-    width: 320px;
-  height: 50px;
+    width: 100%;
+  height: 1000px;
   padding: 10px;
   border: 5px solid gray;
   margin: 0;
