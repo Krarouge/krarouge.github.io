@@ -155,8 +155,8 @@ site-css:
 - "/assets/css/timelines.scss"
 
 # If you have common JavaScript files that should be included in every page, list them here
-site-js:
-- "/assets/js/timelines.js"
+#site-js:
+#- "/assets/js/timelines.js"
 
 #################################
 # --- Web Analytics Section --- #
